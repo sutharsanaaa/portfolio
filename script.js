@@ -3,17 +3,14 @@ const skills = {
   technical: [
     { name: 'AutoCAD', level: 90 },
     { name: 'AutoCAD Architecture', level: 85 },
-    { name: 'Programming in Python', level: 75 },
+    { name: 'Programming in Python', level: 60 },
     { name: 'Autodesk Revit', level: 78 },
     { name: 'Structural Layout Plans', level: 88 },
     { name: 'Quantity Estimation', level: 82 }
+    ,{ name: 'STAAD . Pro', level: 80 },
+    { name: 'Microsoft Project', level: 80 }
   ],
-  soft: [
-    { name: 'Leadership' },
-    { name: 'Time Management' },
-    { name: 'Teamwork' },
-    { name: 'Problem Solving' }
-  ]
+  
 };
 
 const projects = [
@@ -37,9 +34,19 @@ const projects = [
 const experiences = [
   {
     title: 'Intern',
-    company: 'W4 – Wall Four Interior Architects',
+    company: 'GeoCare Engineering Consultancy',
     location: 'Coimbatore',
-    duration: 'Jan 2025 · 14 days',
+    duration: 'Internship',
+    responsibilities: [
+      'Coordinated with the site team during soil investigation work ' ,
+      'Assisted in conducting Standard Penetration Tests (SPT) at project sites.'
+    ]
+  },
+  {
+    title: 'Intern',
+    company: 'W4 - Wall Four Interior Architects',
+    location: 'Coimbatore',
+    duration: 'Internship',
     responsibilities: [
       'Learned fundamentals of interior design including spatial planning, material selection, and aesthetic detailing',
       'Supported the design team with drafting exercises and client presentation decks',
@@ -50,7 +57,7 @@ const experiences = [
     title: 'Intern',
     company: 'Kaveri Construction',
     location: 'Gobichettipalayam',
-    duration: 'Aug 2024 · 14 days',
+    duration: 'Internship',
     responsibilities: [
       'Worked on both site and software aspects, including AutoCAD drafting and structural layout plans',
       'Participated in site supervision, documenting construction processes and safety practices',
@@ -61,18 +68,19 @@ const experiences = [
     title: 'Intern',
     company: 'Om Namachivaya Construction',
     location: 'Avinashi',
-    duration: 'Jan 2024 · 14 days',
+    duration: 'Internship',
     responsibilities: [
       'Gained hands-on exposure to real-time site execution and structural procedures',
       'Assisted engineers during daily inspections, logging observations and issues',
       'Performed basic quantity estimation and material tracking tasks'
     ]
   }
+  
+  
 ];
 
 // DOM Elements
 const technicalSkillsContainer = document.getElementById('technical-skills');
-const softSkillsContainer = document.getElementById('soft-skills');
 const projectsContainer = document.getElementById('projects-container');
 const experienceContainer = document.getElementById('experience-container');
 const mobileMenuButton = document.getElementById('mobile-menu-button');
@@ -92,12 +100,7 @@ function renderSkills() {
     </div>
   `).join('');
 
-  // Render soft skills
-  softSkillsContainer.innerHTML = skills.soft.map(skill => `
-    <div class="border border-gold-500 p-6 text-center">
-      <div class="text-white font-semibold">${skill.name}</div>
-    </div>
-  `).join('');
+  // Soft skills removed — no rendering required
 }
 
 function renderProjects() {
