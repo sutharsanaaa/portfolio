@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sutharsana K - Civil Engineering Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-black text-white">
+    <div class="scroll-progress" aria-hidden="true"></div>
+    <div class="min-h-screen">
+    <!-- Header -->
+    <header class="fixed top-0 w-full z-50 bg-black border-b border-gold-500">
+        <div class="max-w-7xl mx-auto px-6 py-4">
+            <nav class="flex items-center justify-between">
+                <div class="text-2xl font-bold text-gold-500">SUTHARSANA K</div>
+                <div class="hidden md:flex space-x-4" id="nav-links">
+                    <a href="#about" class="nav-link px-4 py-2 text-sm font-medium text-gold-500 border-b-2 border-gold-500">About</a>
+                    <a href="#skills" class="nav-link px-4 py-2 text-sm font-medium text-gray-400 hover:text-gold-500">Skills</a>
+                    <a href="#projects" class="nav-link px-4 py-2 text-sm font-medium text-gray-400 hover:text-gold-500">Projects</a>
+                    <a href="#experience" class="nav-link px-4 py-2 text-sm font-medium text-gray-400 hover:text-gold-500">Experience</a>
+                    <a href="#education" class="nav-link px-4 py-2 text-sm font-medium text-gray-400 hover:text-gold-500">Education</a>
+                    <a href="#contact" class="nav-link px-4 py-2 text-sm font-medium text-gray-400 hover:text-gold-500">Contact</a>
+                </div>
+                <button id="mobile-menu-button" class="md:hidden text-gold-500">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </nav>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-black border-t border-gold-500">
+            <div class="flex flex-col px-6 py-4 space-y-2">
+                <a href="#about" class="nav-link text-gray-400 hover:text-gold-500 py-2">About</a>
+                <a href="#skills" class="nav-link text-gray-400 hover:text-gold-500 py-2">Skills</a>
+                <a href="#projects" class="nav-link text-gray-400 hover:text-gold-500 py-2">Projects</a>
+                <a href="#experience" class="nav-link text-gray-400 hover:text-gold-500 py-2">Experience</a>
+                <a href="#education" class="nav-link text-gray-400 hover:text-gold-500 py-2">Education</a>
+                <a href="#contact" class="nav-link text-gray-400 hover:text-gold-500 py-2">Contact</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center">
+                <div class="inline-block mb-6">
+                    <div class="bg-gold-500 text-black px-6 py-2 text-sm font-semibold">
+                        Civil Engineering Student
+                    </div>
+                </div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-6 text-gold-500">
+                    Building Tomorrow's Infrastructure
+                </h1>
+                <div class="grid lg:grid-cols-[2fr,1fr] gap-12 hero-content mb-12 items-center">
+                    <div class="space-y-8">
+                        <p class="text-xl text-gray-400 max-w-3xl">
+                            Civil Engineering student with strong fundamentals in design and project execution, blending core engineering expertise with modern, tech-driven solutions.
+                        </p>
+                        <div class="grid md:grid-cols-3 gap-6">
+                            <div class="border border-gold-500 p-6">
+                                <div class="text-4xl font-bold text-gold-500 mb-2">9.36</div>
+                                <div class="text-gray-400">Current CGPA</div>
+                            </div>
+                            <div class="border border-gold-500 p-6">
+                                <div class="text-4xl font-bold text-gold-500 mb-2">10+</div>
+                                <div class="text-gray-400">PrepInsta Courses</div>
+                            </div>
+                            <div class="border border-gold-500 p-6">
+                                <div class="text-4xl font-bold text-gold-500 mb-2">8+</div>
+                                <div class="text-gray-400">Core Webinars & Workshops</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-photo-wrapper">
+                        <div class="profile-photo-card">
+                            <img src="./image.png" alt="Sutharsana K" class="profile-photo" />
+                        </div>
+                        <p class="text-center text-gray-400 text-sm mt-3">Sutharsana K — Civil Engineering Student</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="#contact" class="px-8 py-3 bg-gold-500 text-black font-semibold hover:bg-gold-400 text-center transition-colors">
+                        Get In Touch
+                    </a>
+                    <a href="#projects" class="px-8 py-3 border border-gold-500 text-gold-500 font-semibold hover:bg-gold-500 hover:text-black text-center transition-colors">
+                        View Projects
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gold-500 mb-4">About Me</h2>
+                <div class="w-20 h-1 bg-gold-500 mx-auto"></div>
+            </div>
+            <div class="max-w-4xl mx-auto border border-gold-500 p-6 md:p-8">
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    I am a Civil Engineering student at SNS College of Technology, Coimbatore, grounded in design fundamentals and real-world project execution. My academic journey, highlighted by a 9.36 CGPA, reflects a commitment to precision and resilient infrastructure.
+                </p>
+                <p class="text-gray-300 leading-relaxed mb-4">
+                    Beyond core engineering, I cultivate basic coding skills that make me adaptable and analytical—especially while prototyping Python-based workflows for estimation or analysis.
+                </p>
+                <p class="text-gray-300 leading-relaxed">
+                    I am passionate about blending traditional civil practices with technology-enabled approaches for sustainable infrastructure, environmental planning, and geotechnical risk assessment.
+                </p>
+
+                <div class="grid md:grid-cols-3 gap-6 mt-8 text-gray-200">
+                    <div class="border border-gold-500 p-6">
+                        <h3 class="text-xl font-semibold text-gold-500 mb-4">Additional Information</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li>Familiar with civil engineering design principles and environmental impact planning.</li>
+                            <li>Strong interest in sustainable infrastructure and geotechnical risk assessment.</li>
+                            <li>Experience volunteering and coordinating events with the Rotaract Club.</li>
+                        </ul>
+                    </div>
+                    <div class="border border-gold-500 p-6">
+                        <h3 class="text-xl font-semibold text-gold-500 mb-4">Certifications & Short Courses</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li>10+ PrepInsta upskilling courses.</li>
+                            <li>8+ core webinars & workshops (incl. IITM sessions on Autodesk Revit & ML for Sediment Transport).</li>
+                            <li>NPTEL | Interior Design (58%).</li>
+                            <li>IBM Practitioner Courses.</li>
+                        </ul>
+                    </div>
+                    <div class="border border-gold-500 p-6">
+                        <h3 class="text-xl font-semibold text-gold-500 mb-4">Languages</h3>
+                        <ul class="space-y-2 text-sm">
+                            <li>Tamil — Fluent</li>
+                            <li>English — Fluent</li>
+                            <li>Hindi — Basic</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-4xl font-bold text-gold-500 mb-4">Skills</h2>
+                <div class="w-20 h-1 bg-gold-500 mx-auto"></div>
+            </div>
+            
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-gold-500 mb-6">Technical Skills</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6" id="technical-skills">
+                    <!-- Skills will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <div>
+                <h3 class="text-2xl font-bold text-gold-500 mb-6">Soft Skills</h3>
+                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6" id="soft-skills">
+                    <!-- Soft skills will be inserted here by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Projects -->
+      <section id="projects" class="py-20 border-t border-gold-500">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gold-500 mb-4">Projects</h2>
+            <div class="w-20 h-1 bg-gold-500 mx-auto"></div>
+          </div>
+          <div class="grid md:grid-cols-3 gap-8" id="projects-container">
+            <!-- Projects will be inserted here by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience -->
+      <section id="experience" class="py-20 border-t border-gold-500">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gold-500 mb-4">Experience</h2>
+            <div class="w-20 h-1 bg-gold-500 mx-auto"></div>
+          </div>
+          <div class="space-y-6" id="experience-container">
+            <!-- Experience will be inserted here by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="py-20 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gold-500 mb-4">Education</h2>
+            <div class="w-20 h-1 bg-gold-500 mx-auto"></div>
+          </div>
+          <div class="space-y-6">
+            <div class="border border-gold-500 p-6 md:p-8">
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                <h3 class="text-2xl font-bold">B.E. Civil Engineering</h3>
+                <span class="text-gray-400 text-sm">2023 - 2027</span>
+              </div>
+              <div class="text-gold-500 font-semibold mb-2">SNS College of Technology, Coimbatore</div>
+              <p class="text-gray-300">Current CGPA: 9.36</p>
+            </div>
+            <div class="border border-gold-500 p-6 md:p-8">
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                <h3 class="text-2xl font-bold">Higher Secondary Certificate (HSC)</h3>
+                <span class="text-gray-400 text-sm">May 2022</span>
+              </div>
+              <div class="text-gold-500 font-semibold mb-2">Model Higher Secondary School, PM Palayam (State Board)</div>
+              <p class="text-gray-300">Score: 80%</p>
+            </div>
+            <div class="border border-gold-500 p-6 md:p-8">
+              <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-2">
+                <h3 class="text-2xl font-bold">Secondary School Leaving Certificate (SSLC)</h3>
+                <span class="text-gray-400 text-sm">Mar 2021</span>
+              </div>
+              <div class="text-gold-500 font-semibold mb-2">Model Higher Secondary School, PM Palayam (State Board)</div>
+              <p class="text-gray-300">Completed with distinction.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="py-20 border-t border-gold-500 bg-black">
+        <div class="max-w-6xl mx-auto px-6">
+          <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gold-500 mb-4">Contact</h2>
+            <div class="w-20 h-1 bg-gold-500 mx-auto"></div>
+          </div>
+          <div class="grid md:grid-cols-2 gap-12 items-start max-w-5xl mx-auto">
+            <div class="space-y-8">
+              <div class="text-lg text-gray-300">
+                I'm open to internships, site visits, and collaborative projects that combine civil engineering with technology-driven workflows. Drop a message and I’ll get back to you within two business days.
+              </div>
+              <div class="space-y-4">
+                <div class="contact-card border border-gold-500 p-6 bg-gray-900/80">
+                  <div class="text-gold-500 mb-4">
+                    <i class="fas fa-envelope text-2xl"></i>
+                  </div>
+                  <div class="text-sm text-gray-400 mb-1">Email</div>
+                  <div class="font-semibold">Sutharsana25052006@gmail.com</div>
+                </div>
+                <div class="contact-card border border-gold-500 p-6 bg-gray-900/80">
+                  <div class="text-gold-500 mb-4">
+                    <i class="fas fa-phone text-2xl"></i>
+                  </div>
+                  <div class="text-sm text-gray-400 mb-1">Phone</div>
+                  <div class="font-semibold">93447 81644</div>
+                </div>
+                <div class="contact-card border border-gold-500 p-6 bg-gray-900/80">
+                  <div class="text-gold-500 mb-4">
+                    <i class="fab fa-linkedin-in text-2xl"></i>
+                  </div>
+                  <div class="text-sm text-gray-400 mb-1">LinkedIn</div>
+                  <div class="font-semibold">linkedin.com/in/sutharsana-k</div>
+                </div>
+                <div class="contact-card border border-gold-500 p-6 bg-gray-900/80">
+                  <div class="text-gold-500 mb-4">
+                    <i class="fas fa-map-marker-alt text-2xl"></i>
+                  </div>
+                  <div class="text-sm text-gray-400 mb-1">Location</div>
+                  <div class="font-semibold">Saravanampatti, Coimbatore</div>
+                </div>
+              </div>
+            </div>
+            <form class="space-y-4 bg-gray-900/80 p-6 rounded-3xl border border-gold-500 shadow-lg" novalidate>
+              <div>
+                <label class="text-sm text-gray-400 uppercase tracking-wider" for="contact-name">Name</label>
+                <input id="contact-name" type="text" placeholder="Your Name" class="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 mt-2 focus:border-gold-500 focus:outline-none transition-all">
+              </div>
+              <div>
+                <label class="text-sm text-gray-400 uppercase tracking-wider" for="contact-email">Email</label>
+                <input id="contact-email" type="email" placeholder="Your Email" class="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 mt-2 focus:border-gold-500 focus:outline-none transition-all">
+              </div>
+              <div>
+                <label class="text-sm text-gray-400 uppercase tracking-wider" for="contact-message">Message</label>
+                <textarea id="contact-message" rows="4" placeholder="Your Message" class="w-full bg-black border border-gray-700 rounded-xl px-4 py-3 mt-2 focus:border-gold-500 focus:outline-none transition-all resize-none"></textarea>
+              </div>
+              <button type="submit" class="w-full bg-gold-500 text-black px-6 py-3 rounded-2xl font-semibold hover:bg-gold-400 transition-transform hover:-translate-y-1">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="py-8 border-t border-gold-500">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+          <p class="text-gray-400">
+            &copy; 2025 Sutharsana K. Building the future, one structure at a time.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
